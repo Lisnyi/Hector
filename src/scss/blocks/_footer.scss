@@ -1,0 +1,82 @@
+.footer-container {
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+    padding-top: 194px;
+    padding-bottom: 107px;
+	font-size: 32px;
+	background-color: $footer-bg;
+	color: $white;
+	background-image: url('../../img/icons/polygon.svg');
+	background-repeat: no-repeat;
+	background-size: 1725px 1993px;
+	background-position: center;
+    overflow: hidden;
+}
+
+.footer-info__title {
+	margin-bottom: 64px;
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2.1px;
+	text-transform: uppercase;
+}
+.footer-info__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0 31px;
+
+	a {
+		color: rgba($white, 0.75);
+		font-family: 'MontserratRegular', sans-serif;
+		font-size: 16px;
+		line-height: 2.5;
+		letter-spacing: 1.12px;
+        transition: color 0.3s ease;
+	}
+
+    a:hover, a:focus {
+        color: $black;
+    }
+}
+
+.footer-contacts__phone-list {
+    padding-bottom: 49px;
+    
+    a {
+        color: $white;
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 30px;
+        line-height: 1.67;
+        letter-spacing: 2.1px;
+    }
+}
+
+.footer-contacts__icons-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.footer-contacts__icon {
+    width: 24px;
+    height: 24px;
+
+    svg {
+        width: 24px;
+        height: 24px;
+        fill: $white;
+        transition: fill 0.3s ease;
+    }
+
+    &:hover svg, &:focus svg{
+        fill: $black;
+    }
+}
+
+.footer-contacts__devider {
+    width: 1px;
+    height: 28px;
+    background: rgba(196, 196, 196, 0.25);
+}

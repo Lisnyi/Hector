@@ -1,0 +1,92 @@
+.subscribe {
+    padding: 69px 0 77px 0;
+}
+
+.subscribe .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe-title {
+	font-family: 'MontserratBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2.1px;
+    margin-right: 62px;
+}
+
+.subscribe-social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-right: 50px;
+
+    a {
+        width: fit-content;
+    }
+
+    svg {
+        width: 55px;
+        height: 55px;
+        fill: $footer-bg;
+        transition: fill 0.3s ease;
+    }
+
+    a:hover svg, a:focus svg {
+        fill: $muted;
+    }
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-form__input-box {
+    position: relative;
+}
+
+.subscribe-form__input-icon {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 24px;
+    height: 24px;
+    fill: $muted;
+}
+
+.subscribe-input {
+    width: 453px;
+    height: 73px;
+    padding: 22px 22px 22px 66px;
+    border: 2px solid #BFBFBF;
+    background: $white;
+    font-family: 'Montserratregular', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.68px;
+
+    &::placeholder {
+        color: $muted;
+        font-family: 'Montserratregular', sans-serif;
+        font-size: 24px;
+        letter-spacing: 1.68px;
+    }
+}
+
+.subscribe-button {
+    min-width: 373px;
+    height: 73px;
+    padding: 25px 108px;
+    background: $black;
+    color: $white;
+    font-family: 'MontserratBold', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+
+    &:hover, &:focus {
+        background-color: $dark-grey;
+    }
+}

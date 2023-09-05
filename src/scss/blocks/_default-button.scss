@@ -1,0 +1,16 @@
+.default-button {
+	min-width: 313px;
+	height: 73px;
+	padding: 25px 60px;
+	border: 1px solid $black;
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.26px;
+	text-transform: uppercase;
+	transition: color 0.3s ease, background-color 0.3s ease;
+
+	&:hover, &:focus {
+		background-color: $black;
+		color: $white;
+	}
+}

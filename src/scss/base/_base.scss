@@ -1,0 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+    flex-direction: column;
+	min-height: 100vh;
+	background-color: $white;
+	color: $black;
+    font-family: 'MontserratBold', sans-serif;
+	font-size: 16px;
+}

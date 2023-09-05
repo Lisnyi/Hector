@@ -1,0 +1,31 @@
+.copyright-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 43px;
+    background-color: $dark-grey;
+}
+
+.copyright-text {
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.25);
+    font-family: 'MontserratRegular', sans-serif;
+    font-size: 14px;
+    line-height: 2.85; /* 285.714% */
+    letter-spacing: 0.98px;
+}
+
+.copyright-list {
+    display: flex;
+    gap: 30px;
+    margin-right: auto;
+    
+    a {
+        color: rgba(255, 255, 255, 0.25);
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 14px;
+        line-height: 2.85; /* 285.714% */
+        letter-spacing: 0.98px;
+    }
+}

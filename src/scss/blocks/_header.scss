@@ -1,0 +1,62 @@
+.header {
+	padding-top: 33px;
+}
+
+.header-cantainer {
+	position: relative;
+	background-image: url('../img/hero.png'), url('../img/polygon.png');
+	background-repeat: no-repeat;
+	background-position: top 4px right 20%, top 110px right 20%;
+	background-size: 737px 1044px, 748px 864px;
+
+	// @supports (background-image: url('../img/hero.webp')) {
+	// 	background-image: url('../img/hero.webp');
+	// }
+}
+
+.header-row {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.header-buttons-stack {
+	display: flex;
+	gap: 73px;
+}
+
+.header-button {
+	width: 25px;
+	height: 25px;
+	transition: fill 0.3s ease;
+
+	svg {
+		width: 25px;
+		height: 25px;
+	}
+
+	&:hover, &:focus {
+		fill: $muted;
+	}
+}
+
+.header-content {
+	width: 730px;
+	padding: 239px 0 296px 0;
+}
+
+.header-title {
+	font-family: 'MontserratBlack', sans-serif;
+	font-size: 96px;
+	line-height: 1;
+	letter-spacing: 6.72px;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+.header-description {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1.68px;
+	margin-bottom: 60px;
+}

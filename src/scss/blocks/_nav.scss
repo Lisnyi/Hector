@@ -1,0 +1,21 @@
+.nav {
+	margin-right: 49px;
+}
+
+.nav-list {
+	display: flex;
+	gap: 26px;
+}
+
+.nav-link {
+	padding: 15px 0;
+	color: $black;
+	font-size: 14px;
+	letter-spacing: 0.98px;
+	text-transform: uppercase;
+	transition: color 0.3s ease;
+
+	&:hover, &:focus {
+		color: $muted;
+	}
+}

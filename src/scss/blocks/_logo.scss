@@ -1,0 +1,27 @@
+.header-logo {
+	margin-right: auto;
+	transition: fill 0.3s ease;
+
+	svg {
+		width: 122px;
+		height: 104px;
+	}
+
+	&:hover, &:focus {
+		fill: $muted;
+	}
+}
+
+.footer-logo {
+	fill: $white;
+	transition: fill 0.3s ease;
+
+	svg {
+		width: 176px;
+		height: 151px;
+	}
+
+	&:hover, &:focus {
+		fill: $black;
+	}
+}
