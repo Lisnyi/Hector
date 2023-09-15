@@ -72,5 +72,8 @@
 <symbol id="icon-cross" viewBox="0 0 32 32">
 <path fill="none" stroke="#7b61ff" style="stroke: var(--color3, #7b61ff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M21.333 10.667l-10.667 10.667M10.667 10.667l10.667 10.667"></path>
 </symbol>
+<symbol id="icon-chevron" viewBox="0 0 13 8">
+<path d="M11.4671 -1.45631e-07L6.5 4.94673L1.53293 -1.94682e-08L-2.45768e-08 1.52661L6.5 8L13 1.52661L11.4671 -1.45631e-07Z"/>
+</symbol>
 </defs>
 </svg>

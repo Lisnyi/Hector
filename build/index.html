@@ -15,7 +15,66 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li>
-                        <a href="#" class="nav-link">каталог</a>
+                        <button data-catalog-drop-down__button="open" class="nav-link">
+                            каталог
+                            <svg>
+                                <use href="../img/icons/sprite.svg#icon-chevron"></use>
+                            </svg>
+                        </button>
+                        <div class="catalog-drop-down no-display">
+    <button data-catalog-drop-down__button="close" class="catalog-drop-down__button">
+        каталог
+        <svg>
+            <use href="../img/icons/sprite.svg#icon-chevron"></use>
+        </svg>
+    </button>
+    <ul class="catalog-drop-down__gender-list">
+        <li>
+            <a href="#">Мужская одежда</a>
+        </li>
+        <li>
+            <a href="#">Женская одежда</a>
+        </li>
+        <li>
+            <a href="#">Детская одежда</a>
+        </li>
+    </ul>
+    <ul class="catalog-drop-down__categorys-list">
+        <li>
+            Верхняя одежда
+            <ul class="catalog-drop-down__types-list">
+                <li><a href="#">Футболки ПОЛО</a></li>
+                <li><a href="#">Лоргсливы</a></li>
+                <li><a href="#">Свитшоте Регланы</a></li>
+                <li><a href="#">Толстовки Худи</a></li>
+                <li><a href="#">Анораки Ветровки</a></li>
+                <li><a href="#">Спортивные штаны</a></li>
+            </ul>
+        </li>
+        <li>
+            Штаны
+            <ul class="catalog-drop-down__types-list">
+                <li><a href="#">Футболки ПОЛО</a></li>
+                <li><a href="#">Лоргсливы</a></li>
+                <li><a href="#">Свитшоте Регланы</a></li>
+                <li><a href="#">Толстовки Худи</a></li>
+                <li><a href="#">Анораки Ветровки</a></li>
+                <li><a href="#">Спортивные штаны</a></li>
+            </ul>
+        </li>
+        <li>
+            Аксессуары
+            <ul class="catalog-drop-down__types-list">
+                <li><a href="#">Футболки ПОЛО</a></li>
+                <li><a href="#">Лоргсливы</a></li>
+                <li><a href="#">Свитшоте Регланы</a></li>
+                <li><a href="#">Толстовки Худи</a></li>
+                <li><a href="#">Анораки Ветровки</a></li>
+                <li><a href="#">Спортивные штаны</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
                     </li>
                     <li>
                         <a href="#" class="nav-link">sale</a>
@@ -149,7 +208,7 @@
 </section>
 			<section class="catalog">
     <div class="container">
-        <ul class="filter-list">
+        <ul class="filter-list" id="catalog-filter">
             <li>
                 <button class="active">
                     Новинки
@@ -168,261 +227,254 @@
         </ul>
         <ul class="catalog-list">
             <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
-            <li class="catalog-card">
-                <div class="catalog-card__image">
-                    <div class="catalog-card__chip">
-                        <span>new</span>
-                    </div>
-                    <img src="../img/hero.png" width="374" height="531" alt="">
-                </div>
-                <div>
-                    <div class="catalog-card__description">
-                        <svg class="catalog-card__rating">
-                            <use href="../img/icons/sprite.svg#icon-stars"></use>
-                        </svg>
-                        <ul class="catalog-card__sizes">
-                            <li>
-                                S
-                            </li>
-                            <li class="current">
-                                M
-                            </li>
-                            <li>
-                                L
-                            </li>
-                        </ul>
-                    </div> 
-                    <h3 class="catalog-card__name">
-                        Футболка мужская Exclusive 22032
-                    </h3>
-                    <p class="catalog-card__price">
-                        245₴
-                    </p>
-                </div>
-            </li>
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            1055₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            350₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            455₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            800₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            350₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            455₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            245₴
+        </p>
+    </div>
+</li><li class="catalog-card">
+    <div class="catalog-card__image">
+        <div class="catalog-card__chip">
+            <span>new</span>
+        </div>
+        <img src="../img/hero.png" width="374" height="531" alt="">
+    </div>
+    <div>
+        <div class="catalog-card__description">
+            <svg class="catalog-card__rating">
+                <use href="../img/icons/sprite.svg#icon-stars"></use>
+            </svg>
+            <ul class="catalog-card__sizes">
+                <li>
+                    S
+                </li>
+                <li class="current">
+                    M
+                </li>
+                <li>
+                    L
+                </li>
+            </ul>
+        </div> 
+        <h3 class="catalog-card__name">
+            Футболка мужская Exclusive 22032
+        </h3>
+        <p class="catalog-card__price">
+            350₴
+        </p>
+    </div>
+</li>
         </ul>
         <button class="default-button">
             Посмотреть каталог
@@ -431,7 +483,7 @@
 </section>
 			<section class="news">
     <div class="container">
-        <ul class="filter-list">
+        <ul class="filter-list" id="news-filter">
             <li>
                 <button class="active">
                     Новости
@@ -598,6 +650,12 @@
             <a href="#">Условия продажи</a>
         </li>
     </ul>
+    <div class="copyright-development">
+        <span class="copyright-text">Design and development</span>
+        <svg>
+            <use href="../img/icons/sprite.svg#icon-galaxy-logo"></use>
+        </svg>
+    </div>
 </div>
 </footer>
 

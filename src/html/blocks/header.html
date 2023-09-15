@@ -4,7 +4,13 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li>
-                        <a href="#" class="nav-link">каталог</a>
+                        <button data-catalog-drop-down__button="open" class="nav-link">
+                            каталог
+                            <svg>
+                                <use href="../img/icons/sprite.svg#icon-chevron"></use>
+                            </svg>
+                        </button>
+                        @@include('../elements/catalog-drop-down.html')
                     </li>
                     <li>
                         <a href="#" class="nav-link">sale</a>

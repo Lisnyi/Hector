@@ -8,6 +8,9 @@
 }
 
 .nav-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 15px 0;
 	color: $black;
 	font-size: 14px;
@@ -15,7 +18,19 @@
 	text-transform: uppercase;
 	transition: color 0.3s ease;
 
+	svg {
+		width: 13px;
+		height: 8px;
+		margin-left: 7px;
+		fill: $black;
+		transition: fill 0.3s ease;
+	}
+
 	&:hover, &:focus {
 		color: $muted;
+	}
+
+	&:hover svg, &:focus svg {
+		fill: $muted;
 	}
 }

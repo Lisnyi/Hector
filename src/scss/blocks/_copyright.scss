@@ -29,3 +29,17 @@
         letter-spacing: 0.98px;
     }
 }
+
+.copyright-development {
+    display: flex;
+    align-items: center;
+
+    & .copyright-text {
+        margin-right: 20px;
+    }
+
+    svg {
+        width: 91px;
+        height: 36px;
+    }
+}
